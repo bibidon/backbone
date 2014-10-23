@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="../library/JQ/jquery.js"></script>
+    <script type="text/javascript" src="../library/underscore/underscore.js"></script>
+    <script type="text/javascript" src="../library/backbone/backbone.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+    <script type="text/template" id="start">
+        <div id="request">
+            <h4>Выберить номер модели от 0 до 2:</h4>
+            <input type="text" id="block"/>
+            <div id="button"><input type="button" value="Вывести"/></div>
+        </div>
+    </script>
+
+    <script type="text/template" id="list">
+        <ul>
+            <li><%= firstParagraph %></li>
+            <li><%= secondParagraph %></li>
+            <li><%= thirdParagraph %></li>
+        </ul>
+    </script>
+
+</body>
+</html>
